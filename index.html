@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <script src="gen.js"></script>
+      <title>Password generator (JS)</title>
+   </head>
+   <body>
+      <br><br>
+      <p class="custom">Password generator</p>
+      <p class="customSmall">JavaScript</p>
+      <center>
+         <div class="contain_box">
+
+               <br><br>
+               <input name="output" type="text" id="ip3" />
+               <br><br>
+               <label class="options" for="test">Use upper case</label>
+               <label class="myCheckbox">
+               <input type="checkbox" name="test" id="Upper" />
+               <span></span>
+               </label>
+               <br>
+               <label class="options" for="test">Use lower case</label>
+               <label class="myCheckbox">
+               <input type="checkbox" name="test" id="Lower" />
+               <span></span>
+               </label>
+               <br>
+               <label class="options" for="test">Use numbers</label>
+               <label class="myCheckbox">
+               <input type="checkbox" name="test" id="Numb" />
+               <span></span>
+               </label>
+               <br>
+               <label class="options" for="test">Use special characters</label>
+               <label class="myCheckbox">
+               <input type="checkbox" name="test" id="Special" />
+               <span></span>
+               </label>
+               <br>
+               <button type="button" onclick=" options_Selected();" class="btn btn-primary btn-lg">Generate random password !</button>
+            </center>
+         </div>
+         
+
+
+   </body>
+</html>

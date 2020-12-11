@@ -1,0 +1,64 @@
+body {
+    background-color:rgb(94, 22, 177);
+}
+.custom {
+	font-family: Courier;
+	color: white;
+    font-size:45px;
+    text-align: center;
+}
+.customSmall {
+	font-family: Courier;
+	color: white;
+    font-size:24px;
+    text-align: center;
+}
+
+.options{
+    font-family: Courier;
+	color: white;
+    font-size:19px;
+    text-align: center;
+}
+
+/* Text field output */
+#ip3 {
+    border-radius: 15px 15px 15px 15px;
+    background: rgb(255, 255, 255);
+    width: 380px;
+    height: 55px; 
+    outline: none;
+    outline-style: none;
+    text-align:center;
+}
+
+
+/*Checkbox - css*/
+/* The switch - the box around the slider */
+.myCheckbox input {
+    position: relative;
+
+  }
+  
+  .myCheckbox span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("link_to_image");
+  }
+  
+  .myCheckbox input:checked + span {
+    background: url("link_to_another_image");
+  }
+
+
+.contain_box {
+    overflow: hidden;
+    min-width: 400px;
+    min-height: 400px;
+    width:25%;
+    height:400px;
+    background: rgb(31, 30, 30);
+}
+
+
